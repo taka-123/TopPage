@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="./css/style.css" rel="stylesheet" type="text/css"/>
+<title>トップページ</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>TAKAHIRO FURUKAWA</h1>
+            <div class="introduction">
+                <h2>古川 貴大（ふるかわ たかひろ）</h2>
+                <p>三重県伊賀市出身、1990年生まれ。</p>
+                <p>龍谷大学卒業後、3社で経理/営業/生産管理/製造を経験。</p>
+                <p>全ての職種で、業務効率化のためのシステムやマニュアルを作成。</p>
+                <p class="hobby">趣味： テニス、ウォーキング、野球観戦、ノート作り</p>
+            </div>
+        </div><!-- /.container -->
+    </header>
+    <main>
+        <h2>ポートフォリオ作品（全<span id="pf_length"></span>点）</h2>
+        <p class="attention">※画像をクリックすると各サイトへ遷移します</p>
+        <div class="container">
+        <section>
+            <div class="slide">
+                <a id="url" href="">
+                    <div class="image_box">
+                        <p id="title"></p>
+                        <img src="" id="img">
+                    </div>
+                </a>
+                <p class="info">使用言語等： 
+                    <span id="langs"></span>
+                </p>
+                <p class="info">こだわった点：</p>
+                    <ul id="features"></ul>
+                <p class="info">GitHub： 
+                    <a id="github" href=""></a>
+                </p>
+                <div class="nav">
+                    <div id="prev"></div>
+                    <div id="page"></div>
+                    <div id="next"></div>
+                </div>
+            </div>
+        </section>
+        </div><!-- /.container -->
+    </main>
+    <footer>
+        <div>
+        </div><!-- /.container -->
+    </footer>
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
