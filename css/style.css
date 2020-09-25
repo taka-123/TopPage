@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+.container {
+    margin-bottom: 50px;
+}
+.introduction {
+    padding: 60px 0;
+    background-image: url(../img/shima.jpeg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: 100% 160%;
+}
+.hobby {
+    margin-top: 22px;
+}
+.attention {
+    color: red;
+}
+.slide {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 750px;
+    background-color: black;
+}
+.slide p {
+    color: white;
+}
+#url {
+    text-decoration: none;
+}
+#title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+img {
+    max-width: 100%;
+}
+.info {
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+#features {
+    color: white;
+    text-align: left;
+    margin: 0;
+    margin-left: 0.5rem;
+}
+.feature {
+    margin-top: 0.5rem;
+} 
+#github {
+    color: orange;
+    font-weight: bold;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0;
+}
+#prev {
+    cursor: pointer;
+    margin-right: 0.5rem;
+    width: 16px;
+    height: 16px;
+    background: url(../img/portfolio/arrow-left.svg) no-repeat;
+}
+#next {
+    cursor: pointer;
+    margin-left: 0.5rem;
+    width: 16px;
+    height: 16px;
+    background: url(../img/portfolio/arrow-right.svg) no-repeat;
+}
+#page {
+    color: white;
+}
+
+@media(max-width: 800px) {
+    body {
+        width: 100%;
+        margin: 0;
+    }
+    .slide {
+        width: 100%;
+    }
+}
