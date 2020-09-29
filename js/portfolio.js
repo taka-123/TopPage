@@ -5,16 +5,18 @@ const portfolios = [
     url: 'http://118.27.17.227/bungushop/itemlist.php',
     langs: 'HTML/CSS、JavaScript、jQuery、PHP、MySQL、GitHub、Docker', 
     features: [
-        'BootStrapを使わずに作成',
-        'カート内合計数量の表示',
-        '商品画像にマウスオーバーで、商品説明を表示',
-        'ユーザ情報のメールアドレス変更時に、confirm表示',
-        '並び替え変更時に自動submit',
-        'セキュリティ対策（XSS、SQLインジェクション、CSRF）',
-        'ページネーションの実装',
-        'ランキング機能の実装(商品ごとの全ユーザーの購入数より) 等'
+        `敢えてBootStrapを使わずに作成`,
+        `ログインに<span class="red">Cookie</span>を使用`,
+        `カートマーク横に、<span class="red">合計購入予定数量表示</span>`,
+        `並び替え変更時に自動submit`,
+        `商品<span class="red">画像にマウスオーバーで、商品説明表示</span>`,
+        `ユーザ情報のメールアドレス変更時に、confirm表示`,
+        `<span class="red">セキュリティ</span>対策（XSS、SQLインジェクション、CSRF）`,
+        `<span class="red">ページネーション</span>の実装`,
+        `ランキング機能の実装（各商品の全ユーザー購入数合計より）`,
+        `レスポンシブデザイン 等`
     ],
-    github: 'https://github.com/taka-123/BunguShop'
+    github: `https://github.com/taka-123/BunguShop`
     },
     {
     title: 'VeggieShop', 
@@ -22,13 +24,14 @@ const portfolios = [
     url: 'http://118.27.17.227/veggieshop/index.php',
     langs: 'HTML/CSS、JavaScript、jQuery、Bootstrap、PHP、MySQL、GitHub、Docker', 
     features: [
-        'BootStrapを使用',
-        '並び替え変更時に自動submit',
-        'セキュリティ対策（XSS、SQLインジェクション、CSRF）',
-        'ページネーションの実装',
-        'ランキング機能の実装(商品ごとの全ユーザーの購入数より) 等'
+        `<span class="red">BootStrap使用</span>`,
+        `並び替え変更時に<span class="red">自動submit</span>`,
+        `<span class="red">セキュリティ</span>対策（XSS、SQLインジェクション、CSRF）`,
+        `<span class="red">ページネーション</span>の実装`,
+        `ランキング機能の実装（各商品の全ユーザー購入数合計より）`,
+        `レスポンシブデザイン 等`
     ],
-    github: 'https://github.com/taka-123/VeggieShop'
+    github: `https://github.com/taka-123/VeggieShop`
     },
     {
     title: 'トップページ', 
@@ -36,13 +39,15 @@ const portfolios = [
     url: '#',
     langs: 'HTML/CSS、JavaScript、GitHub', 
     features: [
-        'jQueryを使わずに作成',
-        'スライドショーの実装',
-        '画像のプリロード',
-        'モジュールの活用（JavaScript）',
-        '「ポートフォリオの情報のみを記すportfolio.js」を作成し、その記述を変更するだけで、スライドの切替に対して画像や各情報が切り替わるようリファクタリング 等'
+        `敢えて<span class="red">jQueryを使わずに</span>作成`,
+        `<span class="red">モジュール</span>の活用（JavaScript）`,
+        `<span class="red">「ポートフォリオの情報のみを記すportfolio.js」を作成</span>し、その記述を変更するだけで、スライドの切替に対して画像や各情報が切り替わるようリファクタリング`,
+        `<span class="red">スライドショー</span>の実装`,
+        `<span class="red">画像のプリロード</span>`,
+        `別タブでポートフォリオを見られるよう設定`,
+        `レスポンシブデザイン 等`
     ],
-    github: 'https://github.com/taka-123/TopPage'
+    github: `https://github.com/taka-123/TopPage`
     }
 ];
 
