@@ -80,6 +80,10 @@ img {
     color: white;
 }
 
+.red {
+    color: red;
+}
+
 @media(max-width: 800px) {
     body {
         width: 100%;
